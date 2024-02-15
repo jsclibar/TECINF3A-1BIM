@@ -15,6 +15,6 @@ programa {
 
     // Saída
 
-    escreva("\nA área do terreno é de: ", area, " m²")
+    escreva("\nA área do terreno é de: ", area, " metros quadrados")
   }
 }
