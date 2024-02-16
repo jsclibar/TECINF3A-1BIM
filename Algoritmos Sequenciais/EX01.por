@@ -6,10 +6,11 @@ programa {
     
     escreva("Informe o comprimento do terreno: ")
     leia(comprimento)
+
     escreva("Informe a largura do terreno: ")
     leia(largura)
 
-    // Processamento
+    // Processamento (área = comprimento * altura)
 
     area = (comprimento * largura)
 

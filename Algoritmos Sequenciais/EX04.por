@@ -7,7 +7,7 @@ programa {
     escreva("informe sua idade em anos: ")
     leia(anos)
 
-    // Processamento
+    // Processamento (resultado = anos * 365)
 
     resultado = anos * 365
 

@@ -7,7 +7,7 @@ programa {
     escreva("Informe quantos cavalos foram comprados: ")
     leia(cavalos)
 
-    // Processamento
+    // Processamento (resultado = cavalos * 4)
 
     resultado = cavalos * 4
 

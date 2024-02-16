@@ -6,7 +6,7 @@ programa {
     escreva("informe o peso do prato: ")
     leia(pesoPrato)
 
-    // Processamento
+    // Processamento (resultado = peso do prato * 68)
 
     resultado = pesoPrato * 68
 

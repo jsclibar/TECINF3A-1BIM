@@ -10,7 +10,7 @@ programa {
     escreva("informe o valor que você pagou: ")
     leia(valorPago)
 
-    // Processamento
+    // Processamento (dividr o valor pago pelo valor do litro da gasolina)
 
     resultado = (valorPago/valorGasolina)
 

@@ -10,7 +10,8 @@ programa {
     escreva("Informe quantas broas foram vendidas: ")
     leia(broas)
 
-    // Processamento
+    // Soma o total bruto da venda de pães e broas
+    // Multiplica o total bruto por 0.10 para calcular 10%
 
     resultado = (paes * 0.97) + (broas * 3.50)
     poupanca = (resultado * 0.10)
