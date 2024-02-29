@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    inteiro n, r
+
+    escreva("Digite um n diferente de zero: ")
+    leia(n)
+
+    se (n == 0){
+      escreva("Não pode digitar zero")
+    }
+    senao se (n > 0){
+      r = n * 2
+      escreva("O dobro de ", n, " é: ", r)
+    }
+    senao{
+      r = n * 3
+      escreva("O triplo de ", n, " é: ", r)
+    }
+    
+  }
+}
