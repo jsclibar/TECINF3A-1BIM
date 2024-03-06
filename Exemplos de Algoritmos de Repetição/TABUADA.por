@@ -10,7 +10,6 @@ programa {
       //escreva("\nNesse momento, i vale = ", i)
       escreva("\n", tab, " X ", i, " = ", tab*i)
       
-    }
-    
+    }  
   }
 }
