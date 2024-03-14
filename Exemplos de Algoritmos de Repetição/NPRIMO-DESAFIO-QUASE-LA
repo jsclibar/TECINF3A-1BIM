@@ -1,0 +1,34 @@
+programa {
+  funcao ePrimo(inteiro n){
+    inteiro i, divisoes
+
+    divisoes = 0
+
+    para(i = 1; i<=n; i++){
+      se (n % i == 0){
+        divisoes = divisoes + 1
+      }
+    }
+
+    se (divisoes == 2){
+      retorne 1
+    }
+    senao{
+      retorne 0
+    }
+  }  
+  funcao inicio() {
+    inteiro numero
+
+    escreva("Digite um número qualquer: ")
+    leia(numero)
+
+    se (ePrimo(numero)==1){
+      escreva("\nÉ PRIMO!")
+    }
+    senao{
+      escreva("\nNÃO É PRIMO")
+    }
+    
+  }
+}
