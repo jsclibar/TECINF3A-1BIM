@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() {
+    inteiro n, i, divisaoExata
+
+    divisaoExata = 0
+
+    escreva("Digite um número: ")
+    leia(n)
+
+    para(i=1; i<=n; i++){
+      escreva("\n", n, " / ", i, " = resto ", n % i)
+      se (n % i == 0){
+        divisaoExata = divisaoExata + 1
+      }
+    }
+    se (divisaoExata == 2){
+      escreva("\nÉ PRIMO!!!!!")
+    }
+    senao{
+      escreva("\nNÃO É PRIMO!!!!!")
+    }
+    
+  }
+}
